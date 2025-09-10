@@ -32,7 +32,7 @@ class Classes {
     }
 
     String[] getStudentDetails(){
-//       System.out.println( name+ " " + marks + " " + grade + " " + age);
+//      System.out.println( name+ " " + marks + " " + grade + " " + age);
         String[] SD = {name,String.valueOf(marks),grade,String.valueOf(age),loc};
         return SD;
 //       return  ("Student details: \n Name:"+ name+ " \n Marks: " + String.valueOf(marks) + " \n Grade:  " + grade + " \n Age:  " + age);
